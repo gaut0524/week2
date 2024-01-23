@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
-  margin: 20px 0;
+  margin-top: 20px;
   /* Adds top margin to prevent cutting off the site title */
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@ body {
   /* Additional styles for my site header */
   margin-left: 310px;
   /* Uses margin-left to manually align the text to the top left of the grid*/
-  margin-bottom: 1px;
   align-self: flex-start;
    /* Align the site header to the start (top) */
 }
@@ -25,7 +24,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* Sets all the cards sizes */
-  grid-gap: 10px;
+  grid-gap: 15px;
   /* Adds a grid gap to separate the quadrants */
   max-width: 900px;
   width: 100%;
@@ -67,5 +66,5 @@ body {
   margin-top: auto;
   /* Pushes the button to the bottom of the card */
   box-sizing: border-box;
-  /* Includes padding and border in the width calculation */
+  /* Includes padding and border */
 }
