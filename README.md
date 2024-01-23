@@ -16,6 +16,12 @@ body {
   padding: 1rem;
 }
 
+.emojis {
+  display:grid;
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 50% 50%;
+}
+
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
