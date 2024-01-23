@@ -14,7 +14,7 @@ body {
 
 .siteheader {
   /* Additional styles for my site header */
-  margin-left: 310px;
+  margin-left: 300px;
   /* Uses margin-left to manually align the text to the top left of the grid*/
   align-self: flex-start;
    /* Align the site header to the start (top) */
